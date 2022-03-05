@@ -1,0 +1,23 @@
+{
+  "name": "openseas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sentry/node": "^6.12.0",
+    "axios": "^0.24.0",
+    "discord-buttons": "^4.0.0",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "figlet": "^1.5.0",
+    "request": "^2.88.2",
+    "twitter": "^1.7.1"
+  }
+}
