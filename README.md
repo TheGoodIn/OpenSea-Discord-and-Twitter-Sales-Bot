@@ -55,4 +55,4 @@ node .
 
 ## License 📃
 
-This code uses a custom license. Reselling is **strictly prohibited**.
+This code uses a custom license. Reselling is **strictly prohibited**. Before trying to resell, I recommmend checking out the license
