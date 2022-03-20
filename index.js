@@ -69,7 +69,7 @@ client.on('ready', async activity => {
   
   var options = {
     'method': 'GET',
-    'url': `https://api.opensea.io/api/v1/events?offset=0&limit=75&event_type=successful&only_opensea=false&collection_slug=${process.env.COLLECTION_SLUG}&asset_contract_address=${process.env.COLLECTION_CONTRACT}`,
+    'url': `https://api.opensea.io/api/v1/events?limit=75&event_type=successful&only_opensea=false&collection_slug=${process.env.COLLECTION_SLUG}&asset_contract_address=${process.env.COLLECTION_CONTRACT}`,
     'headers': {
       'x-api-key': `${process.env.API_KEY}`
     }
